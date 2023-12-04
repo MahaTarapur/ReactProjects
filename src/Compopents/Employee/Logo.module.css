@@ -1,0 +1,48 @@
+.maindiv
+{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    visibility: hidden;
+    transition: all .4s 0s ;
+    text-align: center;
+}
+
+.icondiv
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    color: #484848;
+    width: 25px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+
+.imgdiv
+{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 200px;
+}
+
+.imgdiv:hover .maindiv
+{
+    visibility: visible;
+    margin-top: 20px;
+}
+
+.icondiv:hover
+{
+    background-color: #ffc451;
+    color: black;
+}

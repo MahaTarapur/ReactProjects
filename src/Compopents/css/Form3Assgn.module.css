@@ -1,0 +1,124 @@
+.maindiv
+{
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    background-color: palegreen;
+    border-radius: 6px;
+}
+
+.searchdiv
+{
+    border: 2px solid black;
+    width: 60%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: palevioletred;
+}
+
+.searchdiv button
+{
+    width: 150px;
+    height: 35px;
+    background-color: mistyrose;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.searchdiv button:active
+{
+    background-color: rgb(234, 189, 185);
+}
+
+.searchdiv input
+{
+    width: 400px;
+    height: 35px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-style: italic;
+}
+
+.searchdiv input::placeholder
+{
+    color: black;
+}
+
+.formdiv
+{
+    border: 2px solid black;
+    margin: 30px 50px;
+    width: 350px;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: paleturquoise;
+    border-radius: 6px;
+}
+
+.formdiv input
+{
+    width: 300px;
+    height: 30px;
+    margin: 4px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: palegoldenrod;
+    font-style: italic;
+}
+
+.formdiv input::placeholder
+{
+    color: black;
+}
+
+
+.formdiv p
+{
+    width: 100%;
+}
+
+.formdiv button
+{
+    width: 100px;
+    height: 30px;
+    background-color: papayawhip;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.formdiv button:active
+{
+    background-color: rgb(202, 169, 115);
+
+}
+
+.databox
+{
+    border: 2px solid black;
+    height: 330px;
+    width: 500px;
+    position: absolute;
+    top: 123px;
+    left: 500px;
+    padding-left: 60px;
+    padding-top: 16px;
+    background-color: paleturquoise;
+    font-style: italic;
+    font-size: 20px;
+    border-radius: 6px;
+}

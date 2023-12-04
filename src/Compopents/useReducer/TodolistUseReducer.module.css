@@ -1,0 +1,38 @@
+.main
+{
+    border: 4px double black;
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.top
+{
+    border: 4px double red;
+    width: 60%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.top input
+{
+    width: 70%;
+    height: 30px;
+}
+
+.top button
+{
+    width: 100px;
+    height: 30px;
+}
+
+.down
+{
+    border: 4px double green;
+    width: 50%;
+}

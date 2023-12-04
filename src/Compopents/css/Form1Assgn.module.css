@@ -1,0 +1,48 @@
+.maindiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.form
+{
+    border: 2px solid black;
+    border-radius: 8px;
+    /* margin: 20px 400px; */
+    width: 400px;
+    text-align: center;
+    padding: 6px;
+    background-color: aliceblue;
+}
+
+.form input
+{
+    margin: 10px auto;
+    display: block;
+    margin-top: 3px;
+    height: 20px;
+    width: 200px;
+}
+
+.form button
+{
+    width: 100px;
+    height: 25px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgba(131, 216, 219, 0.772);
+}
+
+.databox
+{
+    border: 6px double black;
+    width: 400px;
+    height: 220px;
+    /* margin-left: -50px; */
+    margin-top: 20px;
+    background-color: beige;
+    font-style: italic;
+}

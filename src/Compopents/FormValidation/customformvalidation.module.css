@@ -1,0 +1,49 @@
+.div
+{
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 400px;
+    margin: 50px auto;
+    background-color: rgb(204, 156, 252);
+    padding: 10px;
+}
+
+.inputdiv input
+{
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.inputdiv input::placeholder
+{
+    color: black;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.inputdiv small
+{
+    color: red;
+    margin-left: 10px;
+}
+
+.buttondiv
+{
+    text-align: center;
+}
+
+.buttondiv button
+{
+    height: 30px;
+    width: 100px;
+    margin: 5px auto;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-style: italic;
+    background-color: plum;
+    font-size: 15px;
+    font-weight: bold;
+}

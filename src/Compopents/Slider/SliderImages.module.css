@@ -1,0 +1,41 @@
+.div
+{
+    height: 450px;
+    width: 630px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image
+{
+    border: 2px solid black;
+    box-shadow: 4px 4px 20px 6px grey;
+    width: 530px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.btndiv
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.btn
+{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: lightskyblue;
+}
